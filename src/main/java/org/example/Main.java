@@ -3,7 +3,7 @@ package org.example;
 import java.util.List;
 
 public class Main {
-    public static void (String[] args) {
+    public static void main(String[] args) {
         RankService rankService = new RankService();
         for (int i = 1; i < 100000; i++) {
             rankService.setUserScore(Long.valueOf(i), i);
